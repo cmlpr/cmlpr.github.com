@@ -1,0 +1,14 @@
+
+http://cmlpr.github.io/about.html
+http://cmlpr.github.io/archive.html
+http://cmlpr.github.io/atom.xml
+http://cmlpr.github.io/categories.html
+http://cmlpr.github.io/index.html
+http://cmlpr.github.io/pages.html
+http://cmlpr.github.io/rss.xml
+http://cmlpr.github.io/sitemap.txt
+http://cmlpr.github.io/tags.html
+
+http://cmlpr.github.io/2015/11/15/what-is-going-on-here
+http://cmlpr.github.io/2015/11/15/hello-world
+http://cmlpr.github.io/lessons/2011/12/29/jekyll-introduction
