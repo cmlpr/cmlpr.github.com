@@ -11,7 +11,7 @@ My github [profile](http://www.github.com/cmlpr)
 
 ## Trying a code sample
 
-    $ rm -rf _posts/core-samples
+    $ echo "Hello" > hello.html
 
 A short list of my posts:
 
@@ -21,7 +21,7 @@ A short list of my posts:
   {% endfor %}
 </ul>
 
-## Detailed post history:
+## Extended post history:
 
 
 {% for post in site.posts offset: 0 limit: 50 %}
@@ -30,7 +30,7 @@ A short list of my posts:
     <div class="container-narrow">
       <div class="span2">
         <a href="{{ post.url }}" >
-            <img border="0" width="250" height="150" src="/img/posts/{{ post.image }}" alt="">
+            <img border="0" width="250" height="150" src="/images/posts/{{ post.image }}" alt="">
         </a>
       </div>
       <div class="span5">
