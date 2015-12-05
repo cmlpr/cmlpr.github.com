@@ -81,11 +81,27 @@
     <div id="footer">
       <div class="container">
         <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+          . To get in touch with me use this <a href="https://github.com/cmlpr/Feedback/issues/new" title="Leave CMLPR feedback!" target="_blank">feedback</a> form on Github.
         </p>
       </div>
     </div>
+
+    <script>window.twttr = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+ 
+      t._e = [];
+      t.ready = function(f) {
+        t._e.push(f);
+      };
+ 
+      return t;
+    }(document, "script", "twitter-wjs"));</script>
 
     {% include JB/analytics %}
 

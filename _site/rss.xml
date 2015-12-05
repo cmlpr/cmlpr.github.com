@@ -5,20 +5,10 @@
         <description>A Blog by CMLPR - CMLPR</description>
         <link>http://cmlpr.github.io</link>
         <atom:link href="http://cmlpr.github.io/rss.xml" rel="self" type="application/rss+xml" />
-        <lastBuildDate>Wed, 18 Nov 2015 21:59:11 -0500</lastBuildDate>
-        <pubDate>Wed, 18 Nov 2015 21:59:11 -0500</pubDate>
+        <lastBuildDate>Sat, 05 Dec 2015 12:38:53 -0500</lastBuildDate>
+        <pubDate>Sat, 05 Dec 2015 12:38:53 -0500</pubDate>
         <ttl>60</ttl>
 
-
-        <item>
-                <title>Jekyll Introduction Draft</title>
-                <description>
-&lt;p&gt;This is an example of a draft. Read more here: &lt;a href=&quot;http://jekyllrb.com/docs/drafts/&quot;&gt;http://jekyllrb.com/docs/drafts/&lt;/a&gt;&lt;/p&gt;
-</description>
-                <link>http://cmlpr.github.io/lessons/2015/11/15/jekyll-introduction-draft</link>
-                <guid>http://cmlpr.github.io/lessons/2015/11/15/jekyll-introduction-draft</guid>
-                <pubDate>Sun, 15 Nov 2015 16:42:33 -0500</pubDate>
-        </item>
 
         <item>
                 <title>What is going on here..</title>
