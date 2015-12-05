@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Welcome!
-tagline: Internet user
+tagline: Internet person
 ---
 {% include JB/setup %}
 
@@ -34,14 +34,13 @@ A short list of my posts:
         </a>
       </div>
       <div class="span5">
-    <h4><strong><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong></h4>      
+        <h4><strong><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></strong></h4>      
         <p>
           {{ post.summary }}
         </p>
-    <p>
-          <i class="icon-calendar"></i> {{ post.date | date: "%B %e, %Y" }}
-          | <i class="icon-comment"></i> <a href="{{ BASE_PATH }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}">Link</a>     
-      | <i class="icon-tags"></i> Tags :{% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;"><span class="label label-info">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}               
+        <p>
+          <span class="glyphicon glyphicon-calendar"></span> {{ post.date | date: "%B %e, %Y" }}
+          | <span class="glyphicon glyphicon-comment"></span> <a href="{{ BASE_PATH }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"> </a> | <span class="glyphicon glyphicon-tags"></span> Tags :{% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;"><span class="label label-info">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}               
         </p>
         <p><a href="{{ post.url }}">Read more</a></p>
       </div>
