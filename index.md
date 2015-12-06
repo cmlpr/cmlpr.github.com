@@ -7,16 +7,10 @@ tagline: Internet person
 
 I blog about `everything` when there is time..
 
-My github [profile](http://www.github.com/cmlpr)
-
-## Trying a code sample
-
-    $ echo "Hello" > hello.html
-
-A short list of my posts:
+A short list of my recent posts:
 
 <ul class="posts">
-  {% for post in site.posts %}
+  {% for post in site.posts % offset: 0 limit: 5 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>

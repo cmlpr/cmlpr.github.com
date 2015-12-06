@@ -19,7 +19,7 @@ This is my first post in my Github based blog. I have no blogging experience but
 
 <!--more-->
 
-I created this blog following the Github Pages. If you would like to do the same you can start from <a href="https://pages.github.com" target="_blank">here</a>. In order to see my blog locally, I also installed all the components such as `Ruby`, `RubyGems`, `Bundler` and `Jekyll` on my computer. The instructions are clearly described in Github Pages link. I saw many nice blogs using `Jekyll-Bootstrap (JB)` and wanted to build my blog on top of it too. So as a next step I cloned the files and read the documentation from this <a href="http://jekyllrb.com" target="_blank"> link</a>. After a few small modifications, I pushed my local files and folders to Github. 
+I created this blog following the Github Pages. If you would like to do the same, you can start from <a href="https://pages.github.com" target="_blank">here</a>. In order to see my blog locally, I also installed all the components such as `Ruby`, `RubyGems`, `Bundler` and `Jekyll` on my computer. The instructions are clearly described in Github Pages link. I saw many nice blogs using `Jekyll-Bootstrap (JB)` and wanted to build my blog on top of it too. So as a next step I cloned the files and read the documentation from this <a href="http://jekyllrb.com" target="_blank"> link</a>. After a few small modifications, I pushed my local files and folders to Github. 
 
 Files that I modified initially are:
 
