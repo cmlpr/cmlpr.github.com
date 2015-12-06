@@ -8,7 +8,7 @@ year: 2015
 month: 11
 day: 15
 published: true
-summary: A quick introduction
+summary: Building my blog with Jekyll-Bootstrap on Github
 image: hello.jpg
 comments: true
 ---
