@@ -3,7 +3,7 @@ layout: post
 title: "First Post"
 description: ""
 category: General
-tags: cmlpr ootstrap jekyll disqus github python pygments css mathjax
+tags: cmlpr bootstrap jekyll disqus github python pygments css mathjax
 year: 2015
 month: 11
 day: 15
