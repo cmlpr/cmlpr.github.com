@@ -21,8 +21,7 @@ A short list of my posts:
   {% endfor %}
 </ul>
 
-## Extended post history:
-
+## Recently published posts:
 
 {% for post in site.posts offset: 0 limit: 50 %}
 <div class="container-narrow">
@@ -38,6 +37,7 @@ A short list of my posts:
         <p>
           {{ post.summary }}
         </p>
+        {{ post.excerpt }} 
         <p>
           <span class="glyphicon glyphicon-calendar"></span> {{ post.date | date: "%B %e, %Y" }}
           | <span class="glyphicon glyphicon-comment"></span> <a href="{{ BASE_PATH }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.url }}"> Comments </a> | <span class="glyphicon glyphicon-tags"></span> Tags :{% for tag in post.tags %} <a href="/tags/{{ tag }}" rel="tooltip" title="View posts tagged with &quot;{{ tag }}&quot;"><span class="label label-info">{{ tag }}</span></a>  {% if forloop.last != true %} {% endif %} {% endfor %}               
